@@ -27,7 +27,6 @@ public class ProjectOneTest {
         // WHEN
         int actual = project.total(a1);
         int expected = 10;
-
         // THEN
         Assert.assertEquals(expected, actual);
     }
